@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "border-component-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/borderComponent/BorderComponentWebPart.js",
+          "manifest": "./src/webparts/borderComponent/BorderComponentWebPart.manifest.json"
+        }
+      ]
+    },
+    "meeting-details-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/meetingDetails/MeetingDetailsWebPart.js",
+          "manifest": "./src/webparts/meetingDetails/MeetingDetailsWebPart.manifest.json"
+        }
+      ]
+    },
+    "calender-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/calenderWebpart/CalenderWebpartWebPart.js",
+          "manifest": "./src/webparts/calenderWebpart/CalenderWebpartWebPart.manifest.json"
+        }
+      ]
+    },
+    "card-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cardWebpart/CardWebpartWebPart.js",
+          "manifest": "./src/webparts/cardWebpart/CardWebpartWebPart.manifest.json"
+        }
+      ]
+    },
+    "header-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/headerWebpart/HeaderWebpartWebPart.js",
+          "manifest": "./src/webparts/headerWebpart/HeaderWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BorderComponentWebPartStrings": "lib/webparts/borderComponent/loc/{locale}.js",
+    "MeetingDetailsWebPartStrings": "lib/webparts/meetingDetails/loc/{locale}.js",
+    "CalenderWebpartWebPartStrings": "lib/webparts/calenderWebpart/loc/{locale}.js",
+    "CardWebpartWebPartStrings": "lib/webparts/cardWebpart/loc/{locale}.js",
+    "HeaderWebpartWebPartStrings": "lib/webparts/headerWebpart/loc/{locale}.js"
+  }
+}

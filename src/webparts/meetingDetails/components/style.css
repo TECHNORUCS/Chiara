@@ -1,0 +1,57 @@
+#workbenchPageContent {
+    max-width: 100%;
+}
+
+.ms-DetailsList {
+    height: 265px !important;
+    overflow-y: visible !important;
+    overflow-x: hidden !important;
+}
+
+.ms-DetailsRow-fields,
+.ms-DetailsList-headerWrapper {
+    background-color: #F9F3EC !important;
+    border-bottom: 1px solid #CECECE50 !important;
+}
+
+.ms-FocusZone {
+    padding-top: 0 !important;
+}
+
+.ms-DetailsHeader-cell {
+    background-color: #F9F3EC !important;
+}
+
+.ms-DetailsHeader-cellTitle {
+    justify-content: center !important;
+}
+
+.ms-DetailsHeader-cellName {
+    color: #323B95 !important;
+}
+
+.ms-DetailsRow-cell {
+    text-align: left !important;
+    color: #323B95 !important;
+}
+
+.ms-DetailsRow-cell .ms-Icon {
+    color: black;
+    font-size: 12px !important;
+    height: 20px;
+    width: auto;
+}
+
+.ms-DetailsList::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+.ms-DetailsList::-webkit-scrollbar-thumb {
+    background-color: #adadad !important;
+    border-radius: 10px !important;
+}
+
+.ms-Viewport {
+    padding: 0 2px 2px 2px !important;
+}

@@ -1,0 +1,47 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+.container {
+    user-select: none;
+    display: flex;
+    border-radius: 5px;
+    background-color: #223458;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 5px;
+    // Added 
+    width: 800px;
+    margin-left: -12px;
+    margin-bottom: -40px;
+    // Added
+    .cardHeading {
+        color: white;
+        font-weight: 600;
+        padding: 5px 5px 0px 5px;
+        font-size: 20px;
+    }
+    .card {
+        margin: 5px 5px;
+        padding: 0 30px 0 10px;
+        border-radius: 5px;
+        background-color: #F9F3EC;
+        .content {
+            padding-left: 5px;
+            .contentHeading {
+                color: #000;
+                background: -webkit-linear-gradient(left, rgb(175, 2, 2), rgb(126, 126, 254));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: bolder;
+                font-size: 40px;
+                padding-top: 15px;
+                padding-bottom: 30px;
+                line-height: 45px;
+            }
+            .contentDescription {
+                color: #000;
+                font-weight: 500;
+                font-size: 20px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+.container {
+    border: solid black;
+    div {
+        margin: 5px;
+        padding: 5px;
+    }
+    .headerSection {
+        display: flex;
+        justify-content: space-between;
+        border: solid red;
+        padding: 2px;
+    }
+    .contentSection {
+        border: solid blue;
+        .contentCard {
+            border: solid greenyellow;
+        }
+    }
+}
